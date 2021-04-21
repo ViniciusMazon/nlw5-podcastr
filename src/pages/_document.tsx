@@ -6,6 +6,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="shortcut icon" href="/favicon.png" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@500;600&display=swap"
             rel="stylesheet"
