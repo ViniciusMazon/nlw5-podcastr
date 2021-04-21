@@ -1,4 +1,4 @@
-![](/home/vinicius/www/nlw5-podcastr/docs/readme/logo.png)
+![logo](docs/readme/logo.png)
 
 # Sobre o projeto
 
@@ -6,4 +6,4 @@
 
 
 
-![](/home/vinicius/www/nlw5-podcastr/docs/readme/page.png)
+![home](docs/readme/page.png)
