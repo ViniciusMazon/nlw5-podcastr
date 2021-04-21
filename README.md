@@ -1,2 +1,2 @@
 # Podcastr
-🚧**Em desenvolvimento**🚧
+🚧 **Em desenvolvimento** 🚧
