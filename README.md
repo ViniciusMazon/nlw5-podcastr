@@ -17,3 +17,4 @@
 - [Sass](https://sass-lang.com/)
 - [Json-server](https://github.com/typicode/json-server)
 - [Date-fns](https://date-fns.org/)
+- [Axios](https://github.com/axios/axios)
