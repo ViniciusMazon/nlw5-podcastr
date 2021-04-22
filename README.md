@@ -1,15 +1,13 @@
-![logo](docs/readme/logo.png)
+<div align="center">
+  <img src="docs/readme/logo.png" alt="logo"/>
+</div>
 
 # Sobre o projeto
-
-🚧  **Em desenvolvimento**  🚧
-
-
+  <div align="center">
+🚧  <strong>Em desenvolvimento</strong> 🚧
+</div>
 
 ![home](docs/readme/page.png)
-
-
-
 # Desenvolvido utilizando
 
 - [ReactJS](https://pt-br.reactjs.org/)
