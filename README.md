@@ -5,6 +5,8 @@
 # Sobre o projeto
   <div align="center">
 🚧  <strong>Em desenvolvimento</strong> 🚧
+  <br />
+  <br />
 </div>
 
 ![home](docs/readme/page.png)
@@ -16,3 +18,4 @@
 - [Json-server](https://github.com/typicode/json-server)
 - [Date-fns](https://date-fns.org/)
 - [Axios](https://github.com/axios/axios)
+- [rc-slider](https://www.npmjs.com/package/rc-slider)
