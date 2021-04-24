@@ -24,6 +24,7 @@ export function Player() {
     toggleLoop,
     toggleShuffle,
     isShuffling,
+    clearPayerState,
   } = usePlayer();
 
   const [progress, setProgress] = useState(0);
@@ -47,6 +48,14 @@ export function Player() {
     audioRef.current.addEventListener("timeupdate", () => {
       setProgress(Math.floor(audioRef.current.currentTime));
     });
+  }
+
+  function handleEpisodeEnded() {
+    if (hasNext) {
+      playNext();
+    } else {
+      clearPayerState();
+    }
   }
 
   function handleSeek(amount: number) {
@@ -103,6 +112,7 @@ export function Player() {
             src={episode.url}
             ref={audioRef}
             autoPlay
+            onEnded={handleEpisodeEnded}
             loop={isLooping}
             onPlay={() => setPlayingState(true)}
             onPause={() => setPlayingState(false)}
