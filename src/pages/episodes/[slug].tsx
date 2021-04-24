@@ -3,6 +3,7 @@ import ptBR from "date-fns/locale/pt-BR";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { usePlayer } from "../../contexts/PlayerContext";
 // import { useRouter } from "next/router";
 import api from "../../services/api";
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
@@ -21,6 +22,7 @@ type Episode = {
   description: string;
   publishedAt: string;
   durationAsString: string;
+  duration: number;
   url: string;
 };
 
@@ -30,6 +32,8 @@ export default function Episodes({ episode }: EpisodeProps) {
   // if (router.isFallback) {
   //   return <p>Carregando...</p>;
   // }
+
+  const { play } = usePlayer();
 
   return (
     <div className={styles.episode}>
@@ -45,7 +49,7 @@ export default function Episodes({ episode }: EpisodeProps) {
           src={episode.thumbnail}
           objectFit="cover"
         />
-        <button type="button">
+        <button type="button" onClick={() => play(episode)}>
           <img src="/play.svg" alt="Tocar episódio" />
         </button>
       </div>
@@ -114,3 +118,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
     revalidate: 60 * 60 * 24, // 24 hours
   };
 };
+function useProvider(): {} {
+  throw new Error("Function not implemented.");
+}
