@@ -1,6 +1,7 @@
 <div align="center">
   <img src="docs/readme/logo.png" alt="logo"/>
   <br />
+  <a href="https://github.com/ViniciusMazon/nlw5-podcastr/blob/develop/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/ViniciusMazon/nlw5-podcastr"></a>
 </div>
 
 
