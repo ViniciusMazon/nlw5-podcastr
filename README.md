@@ -1,6 +1,14 @@
 <div align="center">
   <img src="docs/readme/logo.png" alt="logo"/>
+  <br />
 </div>
+
+
+# Sumário
+1. [Sobre o projeto](#sobre-o-projeto)
+2. [Como utilizar](#como-utilizar)
+3. [Desenvolvido utilizando](#desenvolvido-utilizando)
+4. [Licença](#licença)
 
 # Sobre o projeto
 Um site para escutar podcasts de tecnologia. Desenvolvido durante a NLW#5.
